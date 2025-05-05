@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form new</title>
+     <link rel="stylesheet" href="form_work.css">
+</head>
+<body>
+    <form>
+        <table border="0">
+           <div class="table-decor">
+            <div class="table-1">
+            <div class="table-content">
+                <h1>Registration form</h1>
+                <p>Please fill out the form to register.</p>
+            </div>
+            <tr>
+                <td><label for ="firstname">First Name</label></td> 
+             <td> <input type="text"id="firstname"name="firstname"placeholder="Enter your first name"></td>
+             <td><label for ="lastname">Last Name</label></td> 
+             <td> <input type="text"id="lastname"name="lastname"placeholder="Enter your last name"></td>
+            </tr>
+            <tr>
+                <td><label for ="emailaddress">Email Address</label></td> 
+             <td> <input type="text"id="emailaddress"name="emailaddress"placeholder="name@example.com"></td>
+            </tr>
+            <tr>
+                <td><label for ="phone number">Phone number</label></td> 
+             <td> <input type="number"id="phone number"name="phone number"placeholder="+1234567890"></td>
+            </tr>
+            <tr>
+                <td><label for ="date of birth">Date of birth</label></td> 
+             <td> <input type="number"id="date of birth"name="date of birth"placeholder="DD/MM/YYYY"></td>
+            </tr>
+            <tr><td><label for ="text">How did you hear about us?</label></td>
+                <td> 
+                    <select id="Ticket" name="Ticket" placeholder="Select an option">
+                        <option value="select">Select an option </option>
+                        <option value="job boards">Job boards </option>
+                     <option value="social media"> Social Media</option>
+                     <option value="friends"> From friends</option>
+                     <option value="official website">Official Web site</option>
+                     <option value="adds"> Advertisement</option>
+                     <option value="others"> Others</option>
+                  </select>
+                  </td>
+                  <tr>
+                    <td><label for ="resume">Resume Upload</label></td> 
+                 <td> <input type="file"id="resume upload"name="resume upload"placeholder="Choose file or drop here"></td>
+                </tr>
+                <tr>
+                    <td> <input type="checkbox"id="terms"></td>
+                    <td><label for ="terms">I agree to the terms and conditions.</label></td> 
+                 
+                </tr>
+                <tr> 
+                <td><button type="submit"><b>Submit</b></button></td>
+                </tr>
+        </div>
+        </div>
+        </table>
+    </form>
+</body>
+</html>

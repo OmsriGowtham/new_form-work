@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(218, 213, 208);
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    height: 630px;
+    width: 620px;
+    background-color: white;
+    margin-left: 370px;
+    
+}
+.table-content {
+    margin-left: 10px;
+}
+tr,td {
+    padding: 10px;
+}
+.table-1{
+    display: inline-flex;
+}
+button {
+    
+    align-items: center;
+    background-color: blue;
+    height: 30px;
+    width: 70px;
+}
+
